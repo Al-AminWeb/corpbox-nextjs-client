@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Hero() {
     return (
         <div className="w-full h-[80vh] bg-[1f242c] flex justify-center flex-col">
@@ -13,7 +15,9 @@ export default function Hero() {
                         Discover More
                     </button>
                 </div>
-
+<div className="absolute top-0 right-48 hidden lg:block">
+    <Image src="/images/hero.png" width={550} height={550} alt="img"/>
+</div>
 
             </div>
         </div>
