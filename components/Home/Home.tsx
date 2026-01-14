@@ -1,7 +1,9 @@
+import Hero from "./Hero/Hero";
+
 export default function Home() {
     return (
         <div>
-            <h1 >this is home </h1>
+          <Hero/>
         </div>
     );
 }
