@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import AboutProgress from "./AboutProgress";
 
 export default function About() {
     return (
@@ -19,7 +20,10 @@ export default function About() {
                 <div>
                     <h1 className="text-blue-700 text-lg font-medium tracking-widest">About Us</h1>
                     <h1 className="text-3xl md:text-5xl font-bold mt-4"> Innovation solutions for digital success</h1>
-                    <p className="ml-0 md:ml-12 md:mt-10 mt-5 text-black text-sm md:text-base font-semibold leading-loose">Payment solutions enable businesses to accept payments Payment solutions enable businesses to accept payments from customers conveniently securely from customers conveniently and securely.</p>
+                    <p className="ml-0 md:ml-12 md:mt-10 mt-5 text-black text-sm md:text-base font-semibold leading-loose">Payment
+                        solutions enable businesses to accept payments Payment solutions enable businesses to accept
+                        payments from customers conveniently securely from customers conveniently and securely.</p>
+                    <AboutProgress/>
                 </div>
 
             </div>
