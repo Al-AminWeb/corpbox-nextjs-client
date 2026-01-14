@@ -8,13 +8,13 @@ export default function AboutProgress() {
             id: 1,
             title: "Project Analysis",
             percent: "95",
-            icon: <FaBullseye className="text-white text-3xl" />,
+            icon: <FaBullseye className="bg-[#b59b76]  text-3xl" />,
         },
         {
             id: 2,
             title: "Design & Development",
             percent: "90",
-            icon: <HiOutlineChartBar className="text-white text-3xl" />,
+            icon: <HiOutlineChartBar className="bg-[#b59b76] text-3xl" />,
         },
     ];
 
