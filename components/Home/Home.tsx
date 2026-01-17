@@ -4,6 +4,7 @@ import Services from "./services/Services";
 import WorkProcess from "./WorkProcess/WorkProcess";
 import Project from "./Project/Project";
 import Blog from "./blog/Blog";
+import Contact from "./Contact/Contact";
 
 export default function Home() {
     return (
@@ -14,6 +15,7 @@ export default function Home() {
             <WorkProcess/>
             <Project/>
             <Blog/>
+            <Contact/>
         </div>
     );
 }
