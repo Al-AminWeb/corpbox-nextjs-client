@@ -6,16 +6,18 @@ import Project from "./Project/Project";
 import Blog from "./blog/Blog";
 import Contact from "./Contact/Contact";
 
+
 export default function Home() {
     return (
         <div>
-          <Hero/>
+            <Hero/>
             <About/>
             <Services/>
             <WorkProcess/>
             <Project/>
             <Blog/>
             <Contact/>
+
         </div>
     );
 }
