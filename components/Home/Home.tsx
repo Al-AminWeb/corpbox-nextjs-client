@@ -3,6 +3,7 @@ import About from "./About/About";
 import Services from "./services/Services";
 import WorkProcess from "./WorkProcess/WorkProcess";
 import Project from "./Project/Project";
+import Blog from "./blog/Blog";
 
 export default function Home() {
     return (
@@ -12,6 +13,7 @@ export default function Home() {
             <Services/>
             <WorkProcess/>
             <Project/>
+            <Blog/>
         </div>
     );
 }
